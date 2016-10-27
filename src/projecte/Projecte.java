@@ -28,6 +28,7 @@ public class Projecte {
         String social=null;
         double salari;
         boolean sociempresa=false;
+        boolean omplit=false;
                 
         System.out.println("Benvolguts a...");
         System.out.println("-------------------------------------");
@@ -70,6 +71,5 @@ public class Projecte {
         
         
         
-    }
-    
+        }      
 }
