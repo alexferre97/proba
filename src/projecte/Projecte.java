@@ -55,7 +55,8 @@ public class Projecte {
                 case '4':
                     System.out.println("Aqui tens la teva llista de totes les dades introduides");
                     System.out.println("------------------------------------------------------------") ;       
-        
+                default:
+                    System.out.println("Aquesta no es una opcio del menu");
  
 
         
