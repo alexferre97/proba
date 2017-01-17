@@ -31,6 +31,7 @@ public class Projecte {
         boolean sociempresa=false;
         char segur='a';
         
+        //---------------------------------------------------------------
         System.out.println("Benvolguts a...");
         System.out.println("-------------------------------------");
         System.out.println("0-Sortir");
@@ -41,8 +42,10 @@ public class Projecte {
         System.out.println("--------------------------------------");
         System.out.println("--------------------------------------");
         System.out.println("--------------------------------------");
+        //-------------------------------------------------------------------
         
-        System.out.println("Introdueix una opcio del menu");
+        
+        System.out.println("Introdueix una opció del menù");
         numero = entrada.next().charAt(0);
         switch (numero) {
             case '0':
@@ -62,7 +65,7 @@ public class Projecte {
                     mobil = entrada.nextInt();
                     System.out.println("numero de la seguretat social");
                     social = entrada.next();
-                    System.out.println("ets soci de la empresa?");
+                    System.out.println("ets soci de la empresa?(Si/No)");
                     //sociempresa = entrada.next();
                    char esSociEmpresa='d';
                     do{
@@ -178,6 +181,9 @@ public class Projecte {
             case '4':
                 System.out.println("Aqui tens la teva llista de totes les dades introduides");
                 System.out.println("------------------------------------------------------------");
+                if (omplit=true){
+                System.out.println(nom);
+            }
             default:
                 System.out.println("Aquesta no es una opcio del menu");
 
